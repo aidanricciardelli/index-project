@@ -1,0 +1,60 @@
+.lets-go{
+    font-size: 90px;
+/*adobe font*/
+    font-family: "bd-console-variable", sans-serif;
+    font-variation-settings: "GAME" 100;
+
+    border: 1px solid rgb(0, 26, 255);
+    transition: transform 450ms ease;
+
+}
+
+
+
+.lets-go-google{
+    font-size: 90px;
+/*google*/
+font-family: 'Major Mono Display', monospace;
+border: 1px solid rgb(255, 7, 7);
+transition: font-size 450ms ease, transform 1000ms ease;
+}
+
+.lets-go-google2{
+    font-size: 90px;
+/*google2*/
+font-family: 'Holtwood One SC', serif;
+
+border: 1px solid rgb(7, 255, 19);
+transition: transform 2000ms ease;
+
+}
+
+
+@font-face {
+    font-family: 'Bespoke';
+    src: url('Bespoke-hu3zxt6Li9.eot');
+    src: url('Bespoke-hu3zxt6Li9.eot?#iefix') format('embedded-opentype'),
+       url('Bespoke-hu3zxt6Li9.woff') format('woff'),
+       url('Bespoke-hu3zxt6Li9.ttf') format('truetype'),
+       url('Bespoke-hu3zxt6Li9.svg#Bespoke-hu3zxt6Li9') format('svg');
+  }
+/*had issues getting the custom font to load :(*/
+
+.lets-go-google:hover{
+    font-size: 90px;
+    transform: rotate(720deg);
+}
+
+.lets-go:hover{
+    transform: matrix(0, 1, 1, 0, 1, 1);
+}
+
+.lets-go-google2:hover{
+transform: translate(0px, 100%);
+}
+
+body {
+    display: flex;
+    justify-content: space-evenly;
+
+}
