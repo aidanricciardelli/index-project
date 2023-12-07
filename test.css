@@ -1,0 +1,25 @@
+/* styles.css */
+
+#imageContainer {
+    position: relative;
+}
+
+#clickableImage {
+    width: 50px;
+    /* Set the desired width */
+    height: 50px;
+    /* Maintain aspect ratio */
+    cursor: pointer;
+    /* Optional: add a pointer cursor to indicate clickability */
+}
+
+#smallText {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 14px;
+    /* Set the desired font size */
+    color: #333;
+    /* Set the desired text color */
+}

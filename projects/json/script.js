@@ -9,7 +9,7 @@ function capitalizeFirstLetter(string) {
 }
 
 
-//converts searchbox text to lowercase to search pokemon name effectively
+//converts searchbox text to lowercase to search pokemon name effectively (allows user to type in uppercase or lowercase or both)
 
 function lowerCaseName(string) {
     return string.toLowerCase();

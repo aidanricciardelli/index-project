@@ -1,0 +1,359 @@
+.name {
+    font-size: 24px;
+    position: sticky;
+}
+
+
+.nav-links {
+    font-size: 20px;
+    font-weight: 1000;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: 5px violet;
+}
+
+.page {
+
+    width: 100%;
+
+
+}
+
+
+.assignments {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    background-color: bisque;
+
+}
+
+a {
+    justify-content: space-around;
+    text-decoration: none;
+    font-weight: bold;
+    border: 2px #333;
+
+}
+
+
+.tooltip-container {
+    position: relative;
+    display: inline-block;
+    padding: 50px;
+}
+
+.tooltip {
+    display: none;
+    position: absolute;
+
+    padding: 50px;
+    background-color: #f0f0f0;
+
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.tooltip-container:hover .tooltip {
+    display: block;
+}
+
+
+
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('background.jpg');
+    /* Set the path to your background image */
+    background-size: cover;
+    background-position: center;
+
+
+    font-family: 'Holtwood One SC', serif;
+    font-family: 'Major Mono Display', monospace;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 13px;
+
+
+    overflow: hidden;
+
+    transition: background-image 3s ease-in-out;
+}
+
+.resizable-rectangle {
+    position: absolute;
+    border: 2px solid #0082C1;
+    /* Windows blue color */
+    cursor: move;
+    /* Move cursor for the rectangle */
+    pointer-events: none;
+    /* Prevent the rectangle from blocking subsequent clicks */
+}
+
+
+
+
+.header {
+    background-color: #333;
+    color: #fff;
+
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+
+    text-align: center;
+}
+
+.index-homepage {
+    font-size: 38px;
+    position: sticky;
+
+
+
+}
+
+/* folder stuff */
+
+
+#septemberfolderModal {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #000000;
+    z-index: 1000;
+    height: 350px;
+    width: 500px;
+}
+
+.septemberFolder {
+
+    height: 50px;
+    width: 50px;
+    cursor: pointer;
+
+    /* Windows blue color */
+    transition: box-shadow 0.8s;
+
+
+}
+
+
+
+
+#octoberfolderModal {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #000000;
+    z-index: 1000;
+    height: 500px;
+    width: 500px;
+}
+
+.octoberFolder {
+
+    height: 50px;
+    width: 50px;
+    cursor: pointer;
+}
+
+#novemberfolderModal {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #000000;
+    z-index: 1000;
+    height: 350px;
+    width: 500px;
+}
+
+.novemberFolder {
+
+    height: 50px;
+    width: 50px;
+    cursor: pointer;
+}
+
+#decemberfolderModal {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #000000;
+    z-index: 1000;
+    height: 100px;
+    width: 500px;
+}
+
+.decemberFolder {
+
+    height: 50px;
+    width: 50px;
+    cursor: pointer;
+}
+
+#resourcefolderModal {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #000000;
+    z-index: 1000;
+    height: 150px;
+    width: 500px;
+}
+
+.resourceFolder {
+
+    height: 50px;
+    width: 50px;
+    cursor: pointer;
+}
+
+
+#otherfolderModal {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #000000;
+    z-index: 1000;
+    height: 150px;
+    width: 500px;
+}
+
+.otherFolder {
+
+    height: 50px;
+    width: 50px;
+    cursor: pointer;
+}
+
+
+
+.modal-content {
+    text-align: left;
+    display: inline-flex;
+    flex-direction: column;
+    width: 400px;
+    height: 100%;
+    justify-content: space-around;
+    color: #ff0505;
+    border: 2px #333;
+}
+
+.dates {
+    text-align: right;
+    right: 50px;
+    bottom: 40px;
+
+}
+
+
+.close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    color: #ff6161;
+}
+
+.imageContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    padding-top: 20px;
+
+
+
+}
+
+
+
+
+
+
+
+
+.contentWrapper {
+    text-align: center;
+    /* Center the content horizontally */
+}
+
+
+
+.smallText {
+
+    bottom: 0;
+    left: 50%;
+
+    font-size: 18px;
+    /* Set the desired font size */
+    color: white;
+    text-shadow: 0px 0px 6px #000000;
+    font-size: 13px;
+
+    /* Windows blue color */
+    transition: box-shadow 0.8s;
+
+}
+
+
+
+
+.draggable {
+    cursor: grab;
+}
+
+
+.custom-cursor {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #00f;
+    /* Initial color of the cursor */
+    pointer-events: none;
+    /* Ensure the cursor doesn't interfere with other elements */
+}
+
+@keyframes pulse {
+    from {
+        box-shadow: 0 0 10px rgba(0, 0, 255, 0.5);
+        background-color: #00f;
+        /* Initial color of the cursor */
+    }
+
+    to {
+        box-shadow: 0 0 20px rgba(0, 0, 255, 0.7);
+        background-color: #00a;
+        /* Adjusted color for the glow effect */
+    }
+}
