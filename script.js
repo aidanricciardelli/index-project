@@ -1,4 +1,4 @@
-// idea is to have date scrolled thorugh and as the dates go on the projects show up based on when they were created // 
+// remake of the windows UI // 
 
 
 
@@ -154,10 +154,10 @@ $(document).ready(function () {
 */
 
 
-// script.js
+
 $(document).ready(function () {
     const images = [
-        'background.jpg', // Replace with your image URLs
+        'background.jpg', //background images
         'background2.jpg'
     ];
 
@@ -169,5 +169,5 @@ $(document).ready(function () {
         currentIndex = nextIndex;
     }
 
-    setInterval(changeBackground, 15000); // Change background every 10 seconds
+    setInterval(changeBackground, 15000); // animates background every 10 seconds
 });
